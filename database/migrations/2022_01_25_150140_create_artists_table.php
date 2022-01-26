@@ -19,7 +19,7 @@ class CreateArtistsTable extends Migration
             $table -> string('surname');
             $table -> date('date_of_birth');
             $table -> text('biografia');
-            $table -> string('year_of_debut');
+            $table -> year('year_of_debut');
             $table -> string('album_of_debut');
             $table -> string('vocal_style');
             $table->timestamps();

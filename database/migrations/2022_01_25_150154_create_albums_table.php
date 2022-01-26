@@ -17,9 +17,9 @@ class CreateAlbumsTable extends Migration
             $table->id();
             $table -> string('title');
             $table -> date('date_of_pubblication');
-            $table -> tinyInteger('sales');
+            $table -> integer('sales');
             $table -> tinyInteger('numer_of_tracks');
-            $table -> string('total_duration');
+            $table -> integer('total_duration');
             $table -> string('vocal_style');
             $table->timestamps();
         });
